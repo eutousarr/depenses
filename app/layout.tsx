@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
+import Head from 'next/head'
 import "./globals.css";
 import {
   ClerkProvider,
@@ -33,6 +34,11 @@ export default function RootLayout({
   return (
     <ClerkProvider>
       <html lang="en" data-theme="cupcake">
+        <Head>
+          <meta charSet="UTF-8" />
+          <meta name="viewport" content="width=device-width,initial-scale=1" />
+          <title>Kis@rrWeb</title>
+        </Head>
         <body
           className={`${geistSans.variable} ${geistMono.variable} antialiased`}
         >

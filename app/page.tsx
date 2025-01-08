@@ -35,12 +35,14 @@ export default function Home() {
 
             <ul className="grid md:grid-cols-3 mt-6 gap-4 md:min-w-[1200px]">
               {budgets.map((budget) => (
-                <Link href={""} key={budget.id}>
-                  <BudgetItem budget={budget} enableHover={1}></BudgetItem>
-                </Link>
+                <li key={budget.id}>
+                  <Link href={""}>
+                    <BudgetItem budget={budget} enableHover={1}></BudgetItem>
+                  </Link>
+                </li>
               ))}
             </ul>
-            
+
           </div>
         </div>
       </div>

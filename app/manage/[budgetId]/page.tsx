@@ -190,7 +190,7 @@ const page = ({ params }: { params: Promise<{ budgetId: string }> }) => {
             </div>
           ) : (
             <div className='md:w-2/3 mt-10 md:ml-4 flex items-center justify-center'>
-              <Send strokeWidth={1.5} className='w-8 h-8 text-accent' />
+              <Send strokeWidth={1.5} className='w-8 h-8 text-accent-content' />
               <span className='text-gray-500 ml-2'>aucune transaction.</span>
             </div>
           )}

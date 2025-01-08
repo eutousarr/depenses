@@ -65,7 +65,7 @@ const page = () => {
                                 <span className='text-gray-500 text-sm'>
                                     Total des transactions
                                 </span>
-                                <span className='text-2xl font-bold text-accent'>
+                                <span className='text-2xl font-bold text-accent-content'>
                                     {totalAmount !== null ? `${totalAmount}€` : 'N/A'}
                                 </span>
                             </div>
@@ -78,7 +78,7 @@ const page = () => {
                                 <span className='text-gray-500 text-sm'>
                                     Nombre de transactions
                                 </span>
-                                <span className='text-2xl font-bold text-accent'>
+                                <span className='text-2xl font-bold text-accent-content'>
                                     {totalCount !== null ? `${totalCount}` : 'N/A'}
                                 </span>
                             </div>
@@ -91,7 +91,7 @@ const page = () => {
                                 <span className='text-gray-500 text-sm'>
                                     Budgets atteints
                                 </span>
-                                <span className='text-2xl font-bold text-accent'>
+                                <span className='text-2xl font-bold text-accent-content'>
                                     {reachedBudgetsRatio || 'N/A'}
                                 </span>
                             </div>

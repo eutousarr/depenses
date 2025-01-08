@@ -1,5 +1,3 @@
-import { UserButton } from "@clerk/nextjs";
-import Image from "next/image";
 import Link from "next/link";
 import Navbar from "./components/Navbar";
 import BudgetItem from "./components/BudgetItem";
@@ -42,9 +40,7 @@ export default function Home() {
                 </Link>
               ))}
             </ul>
-
-
-
+            
           </div>
         </div>
       </div>

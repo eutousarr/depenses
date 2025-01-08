@@ -19,7 +19,7 @@ const Notification: React.FC<NotificationProps> = ({ message, onclose }) => {
     <div className="toast toast-bottom toast-left">
       <div className="alert p-2 text-sm shadow-lg">
         <span className="flex items-center">
-          <Info className="w-4 mr-2 font-bold text-accent"/>
+          <Info className="w-4 mr-2 font-bold text-accent-content"/>
              {message}
         </span>
       </div>

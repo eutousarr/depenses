@@ -20,7 +20,7 @@ export default function Home() {
             <div className="flex justify-center items-center">
               <Link
                 href={"/sign-in"}
-                className="btn btn-sm md:btn-md btn-outline btn-accent"
+                className="btn btn-sm md:btn-md btn-success"
               >
                 Se connecter
               </Link>
